@@ -3,19 +3,19 @@ import { Instagram } from 'lucide-react'
 import { useLanguage } from '../hooks/useLanguage'
 
 export default function Footer() {
-  const { t } = useLanguage()
+  const { language, t } = useLanguage()
   const currentYear = new Date().getFullYear()
 
   const productLinks = [
-    { name: t.footer.productLinks[0].name, path: '/#features' },
-    { name: t.footer.productLinks[1].name, path: '/#how-it-works' },
+    { name: t.footer.productLinks[0].name, path: `/${language}#features` },
+    { name: t.footer.productLinks[1].name, path: `/${language}#how-it-works` },
     { name: t.footer.productLinks[2].name, path: 'https://apps.apple.com/app/id6756331340', external: true },
   ]
 
   const legalLinks = [
-    { name: t.footer.legalLinks[0].name, path: '/privacy' },
-    { name: t.footer.legalLinks[1].name, path: '/terms' },
-    { name: t.footer.legalLinks[2].name, path: '/contact' },
+    { name: t.footer.legalLinks[0].name, path: `/${language}/privacy` },
+    { name: t.footer.legalLinks[1].name, path: `/${language}/terms` },
+    { name: t.footer.legalLinks[2].name, path: `/${language}/contact` },
   ]
 
   const socialLinks = [
@@ -59,12 +59,12 @@ export default function Footer() {
                   </li>
                 ) : (
                   <li key={link.name}>
-                    <a
-                      href={link.path}
+                    <Link
+                      to={link.path}
                       className="text-gray-600 dark:text-gray-400 hover:text-brand-blue dark:hover:text-brand-blue text-sm transition-colors duration-300"
                     >
                       {link.name}
-                    </a>
+                    </Link>
                   </li>
                 )
               )}

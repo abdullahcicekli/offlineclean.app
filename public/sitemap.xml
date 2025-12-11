@@ -1,31 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- English Pages -->
   <url>
-    <loc>https://offlineclean.app/</loc>
+    <loc>https://offlineclean.app/en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://offlineclean.app/en"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://offlineclean.app/tr"/>
     <lastmod>2024-12-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://offlineclean.app/faq</loc>
+    <loc>https://offlineclean.app/en/faq</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://offlineclean.app/en/faq"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://offlineclean.app/tr/faq"/>
     <lastmod>2024-12-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://offlineclean.app/contact</loc>
+    <loc>https://offlineclean.app/en/contact</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://offlineclean.app/en/contact"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://offlineclean.app/tr/contact"/>
     <lastmod>2024-12-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://offlineclean.app/privacy</loc>
+    <loc>https://offlineclean.app/en/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://offlineclean.app/en/privacy"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://offlineclean.app/tr/privacy"/>
     <lastmod>2024-12-11</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://offlineclean.app/terms</loc>
+    <loc>https://offlineclean.app/en/terms</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://offlineclean.app/en/terms"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://offlineclean.app/tr/terms"/>
+    <lastmod>2024-12-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Turkish Pages -->
+  <url>
+    <loc>https://offlineclean.app/tr</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://offlineclean.app/en"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://offlineclean.app/tr"/>
+    <lastmod>2024-12-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://offlineclean.app/tr/faq</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://offlineclean.app/en/faq"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://offlineclean.app/tr/faq"/>
+    <lastmod>2024-12-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://offlineclean.app/tr/contact</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://offlineclean.app/en/contact"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://offlineclean.app/tr/contact"/>
+    <lastmod>2024-12-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://offlineclean.app/tr/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://offlineclean.app/en/privacy"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://offlineclean.app/tr/privacy"/>
+    <lastmod>2024-12-11</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://offlineclean.app/tr/terms</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://offlineclean.app/en/terms"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://offlineclean.app/tr/terms"/>
     <lastmod>2024-12-11</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>

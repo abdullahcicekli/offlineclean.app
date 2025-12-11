@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Link, useLocation } from 'react-router-dom'
+import { Link, useLocation, useNavigate } from 'react-router-dom'
 import { Menu, X, Globe, Sun, Moon } from 'lucide-react'
 import { useLanguage } from '../hooks/useLanguage'
 import { useTheme } from '../hooks/useTheme'
@@ -9,7 +9,8 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [isLangMenuOpen, setIsLangMenuOpen] = useState(false)
   const location = useLocation()
-  const { language, setLanguage, t } = useLanguage()
+  const navigate = useNavigate()
+  const { language, t } = useLanguage()
   const { theme, toggleTheme } = useTheme()
 
   const isActive = (path: string) => {
@@ -17,18 +18,28 @@ export default function Header() {
   }
 
   const navLinks = [
-    { name: t.nav.features, path: '/#features' },
-    { name: t.nav.howItWorks, path: '/#how-it-works' },
-    { name: t.nav.faq, path: '/faq' },
-    { name: t.nav.contact, path: '/contact' },
+    { name: t.nav.features, path: `/${language}#features` },
+    { name: t.nav.howItWorks, path: `/${language}#how-it-works` },
+    { name: t.nav.faq, path: `/${language}/faq` },
+    { name: t.nav.contact, path: `/${language}/contact` },
   ]
+
+  const switchLanguage = (newLang: Language) => {
+    // Get current path without language prefix
+    const pathParts = location.pathname.split('/')
+    pathParts[1] = newLang // Replace language code
+    const newPath = pathParts.join('/') || `/${newLang}`
+    navigate(newPath)
+    setIsLangMenuOpen(false)
+    setIsMenuOpen(false)
+  }
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 dark:bg-black/80 backdrop-blur-lg border-b border-gray-200 dark:border-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-3 group">
+          <Link to={`/${language}`} className="flex items-center space-x-3 group">
             <img
               src="/apple-touch-icon.png"
               alt="OfflineClean Logo"
@@ -40,9 +51,9 @@ export default function Header() {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             {navLinks.map((link) => (
-              <a
+              <Link
                 key={link.path}
-                href={link.path}
+                to={link.path}
                 className={`text-sm font-medium transition-colors duration-300 ${
                   isActive(link.path)
                     ? 'text-brand-blue dark:text-brand-blue'
@@ -50,7 +61,7 @@ export default function Header() {
                 }`}
               >
                 {link.name}
-              </a>
+              </Link>
             ))}
 
             {/* Theme Toggle */}
@@ -78,10 +89,7 @@ export default function Header() {
                   {supportedLanguages.map((lang) => (
                     <button
                       key={lang}
-                      onClick={() => {
-                        setLanguage(lang as Language)
-                        setIsLangMenuOpen(false)
-                      }}
+                      onClick={() => switchLanguage(lang)}
                       className={`w-full text-left px-4 py-2 text-sm transition-colors duration-200 ${
                         language === lang
                           ? 'bg-brand-blue/20 text-brand-blue dark:text-brand-blue'
@@ -124,9 +132,9 @@ export default function Header() {
           <nav className="md:hidden py-4 border-t border-gray-200 dark:border-gray-800">
             <div className="flex flex-col space-y-4">
               {navLinks.map((link) => (
-                <a
+                <Link
                   key={link.path}
-                  href={link.path}
+                  to={link.path}
                   onClick={() => setIsMenuOpen(false)}
                   className={`text-sm font-medium transition-colors duration-300 ${
                     isActive(link.path)
@@ -135,7 +143,7 @@ export default function Header() {
                   }`}
                 >
                   {link.name}
-                </a>
+                </Link>
               ))}
 
               {/* Mobile Theme Toggle */}
@@ -162,10 +170,7 @@ export default function Header() {
                   {supportedLanguages.map((lang) => (
                     <button
                       key={lang}
-                      onClick={() => {
-                        setLanguage(lang as Language)
-                        setIsMenuOpen(false)
-                      }}
+                      onClick={() => switchLanguage(lang)}
                       className={`px-3 py-2 rounded-lg text-sm font-medium transition-colors duration-200 ${
                         language === lang
                           ? 'bg-brand-blue/20 text-brand-blue dark:text-brand-blue border border-brand-blue/30'
