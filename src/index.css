@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* OfflineClean brand colors */
+  --brand-green: #4CD964;
+  --brand-green-dark: #3CB853;
+  --brand-blue: #007AFF;
+  --brand-blue-dark: #0056B3;
+  --brand-red: #FF3B30;
+  --brand-orange: #FF9500;
+  --brand-gold: #FFD700;
+
+  /* Legacy */
+  --accent: #007AFF;
+  --accent-dark: #0056B3;
+}
+
+/* Light theme (default) */
+body {
+  @apply bg-white text-gray-900 antialiased;
+}
+
+/* Dark theme */
+.dark body {
+  @apply bg-black text-white;
+}
+
+/* Brand gradient text effect */
+.gradient-text {
+  background: linear-gradient(135deg, #45CDFB 0%, #0C6EC7 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* iOS App Icon style for logo images */
+.app-icon {
+  @apply rounded-[20%] shadow-lg;
+  box-shadow: 0 4px 12px rgba(0, 122, 255, 0.2),
+              0 2px 6px rgba(76, 217, 100, 0.15);
+}
+
+.app-icon:hover {
+  @apply shadow-xl;
+  box-shadow: 0 6px 16px rgba(0, 122, 255, 0.3),
+              0 3px 8px rgba(76, 217, 100, 0.25);
+}
+
+.section-container {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-200 dark:bg-gray-900;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-400 dark:bg-gray-700 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-500 dark:bg-gray-600;
+}
+
+/* RTL support */
+[dir='rtl'] {
+  direction: rtl;
+}
+
+[dir='ltr'] {
+  direction: ltr;
+}

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/app-icon.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/app-icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#007AFF" />
+    <link rel="manifest" href="/manifest.json" />
+    <title>OfflineClean - Smart Photo Cleanup App for iPhone</title>
+    <meta name="description" content="Clean up your photo library with simple swipes. OfflineClean helps you organize and free up storage space on your iPhone. 100% private, all processing happens on-device." />
+    <meta name="keywords" content="photo cleanup, iPhone storage, photo organizer, delete duplicate photos, free up space, photo library manager, iOS app" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://offlineclean.app/" />
+    <meta property="og:title" content="OfflineClean - Smart Photo Cleanup App for iPhone" />
+    <meta property="og:description" content="Clean up your photo library with simple swipes. 100% private, all processing happens on-device." />
+    <meta property="og:image" content="https://offlineclean.app/og-image.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://offlineclean.app/" />
+    <meta property="twitter:title" content="OfflineClean - Smart Photo Cleanup App for iPhone" />
+    <meta property="twitter:description" content="Clean up your photo library with simple swipes. 100% private, all processing happens on-device." />
+    <meta property="twitter:image" content="https://offlineclean.app/og-image.png" />
+
+    <script>
+      // GitHub Pages SPA redirect solution
+      // Check if there's a redirect path stored in sessionStorage
+      (function() {
+        var redirect = sessionStorage.getItem('redirect');
+        if (redirect && redirect !== '/') {
+          sessionStorage.removeItem('redirect');
+          history.replaceState(null, null, redirect);
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

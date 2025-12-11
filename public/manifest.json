@@ -1,0 +1,16 @@
+{
+  "name": "OfflineClean - Smart Photo Cleaner",
+  "short_name": "OfflineClean",
+  "description": "Clean your photo library with AI-powered duplicate and similar photo detection. 100% offline and private.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#007AFF",
+  "icons": [
+    {
+      "src": "/app-icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
