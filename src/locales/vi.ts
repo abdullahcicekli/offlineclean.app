@@ -149,15 +149,18 @@ export const vi: Translation = {
     plans: {
       weekly: {
         name: 'Hàng tuần',
+        price: '₫119,000',
         period: '/tuần',
         description: 'Hoàn hảo cho dọn dẹp thỉnh thoảng',
         features: ['Vuốt không giới hạn', 'Tất cả tính năng bao gồm', 'Hủy bất cứ lúc nào'],
       },
       yearly: {
         name: 'Hàng năm',
+        price: '₫999,000',
         period: '/năm',
         description: 'Giá trị tốt nhất cho người dùng thường xuyên',
         badge: 'Tiết kiệm 80%',
+        perWeek: '~ ₫19,212/tuần',
         features: [
           'Vuốt không giới hạn',
           'Tất cả tính năng bao gồm',
@@ -187,7 +190,7 @@ export const vi: Translation = {
     quickLinks: 'Liên kết nhanh',
     legal: 'Pháp lý',
     followUs: 'Theo dõi chúng tôi',
-    copyright: '2024 OfflineClean. Bảo lưu mọi quyền.',
+    copyright: '2025 OfflineClean. Bảo lưu mọi quyền.',
     productLinks: [{ name: 'Tính năng' }, { name: 'Cách hoạt động' }, { name: 'Tải xuống' }],
     legalLinks: [{ name: 'Chính sách bảo mật' }, { name: 'Điều khoản dịch vụ' }, { name: 'Liên hệ' }],
   },
@@ -275,6 +278,7 @@ export const vi: Translation = {
         content: 'Nếu bạn có bất kỳ câu hỏi nào về Chính sách bảo mật này, vui lòng liên hệ với chúng tôi.',
       },
     ],
+    contactText: 'Nếu bạn có bất kỳ câu hỏi nào về Chính sách bảo mật này, vui lòng liên hệ với chúng tôi tại:',
     contactEmail: 'support@tinylapse.com',
   },
 
@@ -310,6 +314,7 @@ export const vi: Translation = {
           'Chúng tôi có thể cập nhật các Điều khoản dịch vụ này theo thời gian. Tiếp tục sử dụng ứng dụng sau các thay đổi cấu thành sự chấp nhận các điều khoản mới.',
       },
     ],
+    contactText: 'Nếu bạn có bất kỳ câu hỏi nào về Điều khoản dịch vụ này, vui lòng liên hệ với chúng tôi tại:',
     contactEmail: 'support@tinylapse.com',
   },
 }

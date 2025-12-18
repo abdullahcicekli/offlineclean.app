@@ -149,15 +149,18 @@ export const hi: Translation = {
     plans: {
       weekly: {
         name: 'साप्ताहिक',
+        price: '$3.99',
         period: '/सप्ताह',
         description: 'कभी-कभी सफाई के लिए परफेक्ट',
         features: ['असीमित स्वाइप', 'सभी विशेषताएं शामिल', 'कभी भी रद्द करें'],
       },
       yearly: {
         name: 'वार्षिक',
+        price: '$29.99',
         period: '/वर्ष',
         description: 'नियमित उपयोगकर्ताओं के लिए सर्वोत्तम मूल्य',
         badge: '80% बचाएं',
+        perWeek: '~ $0.58/सप्ताह',
         features: [
           'असीमित स्वाइप',
           'सभी विशेषताएं शामिल',
@@ -187,7 +190,7 @@ export const hi: Translation = {
     quickLinks: 'त्वरित लिंक',
     legal: 'कानूनी',
     followUs: 'हमें फॉलो करें',
-    copyright: '2024 OfflineClean. सर्वाधिकार सुरक्षित।',
+    copyright: '2025 OfflineClean. सर्वाधिकार सुरक्षित।',
     productLinks: [{ name: 'विशेषताएं' }, { name: 'कैसे काम करता है' }, { name: 'डाउनलोड' }],
     legalLinks: [{ name: 'गोपनीयता नीति' }, { name: 'सेवा की शर्तें' }, { name: 'संपर्क' }],
   },
@@ -275,6 +278,7 @@ export const hi: Translation = {
         content: 'यदि इस गोपनीयता नीति के बारे में आपके कोई प्रश्न हैं, तो कृपया हमसे संपर्क करें।',
       },
     ],
+    contactText: 'इस गोपनीयता नीति के बारे में किसी भी प्रश्न के लिए, कृपया हमसे संपर्क करें:',
     contactEmail: 'support@tinylapse.com',
   },
 
@@ -310,6 +314,7 @@ export const hi: Translation = {
           'हम समय-समय पर इन सेवा की शर्तों को अपडेट कर सकते हैं। बदलावों के बाद ऐप का निरंतर उपयोग नई शर्तों की स्वीकृति माना जाता है।',
       },
     ],
+    contactText: 'इन सेवा की शर्तों के बारे में किसी भी प्रश्न के लिए, कृपया हमसे संपर्क करें:',
     contactEmail: 'support@tinylapse.com',
   },
 }

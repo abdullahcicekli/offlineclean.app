@@ -149,15 +149,18 @@ export const frFR: Translation = {
     plans: {
       weekly: {
         name: 'Hebdomadaire',
+        price: '$3.99',
         period: '/semaine',
         description: 'Parfait pour un nettoyage occasionnel',
         features: ['Balayages illimités', 'Toutes les fonctionnalités incluses', 'Annulez à tout moment'],
       },
       yearly: {
         name: 'Annuel',
+        price: '$29.99',
         period: '/an',
         description: 'Meilleure valeur pour les utilisateurs réguliers',
         badge: 'Économisez 80%',
+        perWeek: '~ $0.58/semaine',
         features: [
           'Balayages illimités',
           'Toutes les fonctionnalités incluses',
@@ -187,7 +190,7 @@ export const frFR: Translation = {
     quickLinks: 'Liens Rapides',
     legal: 'Mentions Légales',
     followUs: 'Suivez-nous',
-    copyright: '2024 OfflineClean. Tous droits réservés.',
+    copyright: '2025 OfflineClean. Tous droits réservés.',
     productLinks: [{ name: 'Fonctionnalités' }, { name: 'Comment ça marche' }, { name: 'Télécharger' }],
     legalLinks: [{ name: 'Politique de Confidentialité' }, { name: 'Conditions d\'Utilisation' }, { name: 'Contact' }],
   },
@@ -275,6 +278,7 @@ export const frFR: Translation = {
         content: 'Si vous avez des questions concernant cette Politique de Confidentialité, veuillez nous contacter.',
       },
     ],
+    contactText: 'Pour toute question concernant cette Politique de Confidentialité, veuillez nous contacter à :',
     contactEmail: 'support@tinylapse.com',
   },
 
@@ -310,6 +314,7 @@ export const frFR: Translation = {
           'Nous pouvons mettre à jour ces Conditions d\'Utilisation de temps en temps. L\'utilisation continue de l\'app après les modifications constitue l\'acceptation des nouvelles conditions.',
       },
     ],
+    contactText: 'Pour toute question concernant ces Conditions d\'Utilisation, veuillez nous contacter à :',
     contactEmail: 'support@tinylapse.com',
   },
 }

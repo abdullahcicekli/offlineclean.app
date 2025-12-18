@@ -149,15 +149,18 @@ export const ptBR: Translation = {
     plans: {
       weekly: {
         name: 'Semanal',
+        price: '$3.99',
         period: '/semana',
         description: 'Perfeito para limpeza ocasional',
         features: ['Deslizes ilimitados', 'Todos os recursos incluídos', 'Cancele quando quiser'],
       },
       yearly: {
         name: 'Anual',
+        price: '$29.99',
         period: '/ano',
         description: 'Melhor valor para usuários regulares',
         badge: 'Economize 80%',
+        perWeek: '~ $0.58/semana',
         features: [
           'Deslizes ilimitados',
           'Todos os recursos incluídos',
@@ -187,7 +190,7 @@ export const ptBR: Translation = {
     quickLinks: 'Links Rápidos',
     legal: 'Legal',
     followUs: 'Siga-nos',
-    copyright: '2024 OfflineClean. Todos os direitos reservados.',
+    copyright: '2025 OfflineClean. Todos os direitos reservados.',
     productLinks: [{ name: 'Recursos' }, { name: 'Como Funciona' }, { name: 'Download' }],
     legalLinks: [{ name: 'Política de Privacidade' }, { name: 'Termos de Serviço' }, { name: 'Contato' }],
   },
@@ -275,6 +278,7 @@ export const ptBR: Translation = {
         content: 'Se você tiver alguma pergunta sobre esta Política de Privacidade, entre em contato conosco.',
       },
     ],
+    contactText: 'Para quaisquer perguntas sobre esta Política de Privacidade, entre em contato conosco em:',
     contactEmail: 'support@tinylapse.com',
   },
 
@@ -310,6 +314,7 @@ export const ptBR: Translation = {
           'Podemos atualizar estes Termos de Serviço de tempos em tempos. O uso continuado do app após alterações constitui aceitação dos novos termos.',
       },
     ],
+    contactText: 'Para quaisquer perguntas sobre estes Termos de Serviço, entre em contato conosco em:',
     contactEmail: 'support@tinylapse.com',
   },
 }

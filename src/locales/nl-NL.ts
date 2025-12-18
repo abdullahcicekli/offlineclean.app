@@ -149,15 +149,18 @@ export const nlNL: Translation = {
     plans: {
       weekly: {
         name: 'Wekelijks',
+        price: '$3.99',
         period: '/week',
         description: 'Perfect voor af en toe opruimen',
         features: ['Onbeperkte swipes', 'Alle functies inbegrepen', 'Altijd opzeggen'],
       },
       yearly: {
         name: 'Jaarlijks',
+        price: '$29.99',
         period: '/jaar',
         description: 'Beste waarde voor regelmatige gebruikers',
         badge: 'Bespaar 80%',
+        perWeek: '~ $0.58/week',
         features: [
           'Onbeperkte swipes',
           'Alle functies inbegrepen',
@@ -187,7 +190,7 @@ export const nlNL: Translation = {
     quickLinks: 'Snelle Links',
     legal: 'Juridisch',
     followUs: 'Volg Ons',
-    copyright: '2024 OfflineClean. Alle rechten voorbehouden.',
+    copyright: '2025 OfflineClean. Alle rechten voorbehouden.',
     productLinks: [{ name: 'Functies' }, { name: 'Hoe Het Werkt' }, { name: 'Download' }],
     legalLinks: [{ name: 'Privacybeleid' }, { name: 'Servicevoorwaarden' }, { name: 'Contact' }],
   },
@@ -275,6 +278,7 @@ export const nlNL: Translation = {
         content: 'Als je vragen hebt over dit Privacybeleid, neem dan contact met ons op.',
       },
     ],
+    contactText: 'Voor vragen over dit Privacybeleid, neem contact met ons op via:',
     contactEmail: 'support@tinylapse.com',
   },
 
@@ -310,6 +314,7 @@ export const nlNL: Translation = {
           'We kunnen deze Servicevoorwaarden van tijd tot tijd bijwerken. Voortgezet gebruik van de app na wijzigingen houdt acceptatie van de nieuwe voorwaarden in.',
       },
     ],
+    contactText: 'Voor vragen over deze Servicevoorwaarden, neem contact met ons op via:',
     contactEmail: 'support@tinylapse.com',
   },
 }

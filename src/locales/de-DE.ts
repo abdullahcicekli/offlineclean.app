@@ -149,15 +149,18 @@ export const deDE: Translation = {
     plans: {
       weekly: {
         name: 'Wöchentlich',
+        price: '$3.99',
         period: '/Woche',
         description: 'Perfekt für gelegentliches Aufräumen',
         features: ['Unbegrenzte Wischgesten', 'Alle Funktionen inklusive', 'Jederzeit kündbar'],
       },
       yearly: {
         name: 'Jährlich',
+        price: '$29.99',
         period: '/Jahr',
         description: 'Bestes Preis-Leistungs-Verhältnis für regelmäßige Nutzer',
         badge: '80% sparen',
+        perWeek: '~ $0.58/Woche',
         features: [
           'Unbegrenzte Wischgesten',
           'Alle Funktionen inklusive',
@@ -187,7 +190,7 @@ export const deDE: Translation = {
     quickLinks: 'Schnelllinks',
     legal: 'Rechtliches',
     followUs: 'Folge uns',
-    copyright: '2024 OfflineClean. Alle Rechte vorbehalten.',
+    copyright: '2025 OfflineClean. Alle Rechte vorbehalten.',
     productLinks: [{ name: 'Funktionen' }, { name: 'So funktioniert es' }, { name: 'Download' }],
     legalLinks: [{ name: 'Datenschutz' }, { name: 'Nutzungsbedingungen' }, { name: 'Kontakt' }],
   },
@@ -275,6 +278,7 @@ export const deDE: Translation = {
         content: 'Wenn du Fragen zu dieser Datenschutzrichtlinie hast, kontaktiere uns bitte.',
       },
     ],
+    contactText: 'Bei Fragen zu dieser Datenschutzrichtlinie kontaktiere uns bitte unter:',
     contactEmail: 'support@tinylapse.com',
   },
 
@@ -310,6 +314,7 @@ export const deDE: Translation = {
           'Wir können diese Nutzungsbedingungen von Zeit zu Zeit aktualisieren. Die fortgesetzte Nutzung der App nach Änderungen gilt als Akzeptanz der neuen Bedingungen.',
       },
     ],
+    contactText: 'Bei Fragen zu diesen Nutzungsbedingungen kontaktiere uns bitte unter:',
     contactEmail: 'support@tinylapse.com',
   },
 }

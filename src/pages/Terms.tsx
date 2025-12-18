@@ -47,7 +47,7 @@ export default function Terms() {
         {/* Contact */}
         <div className="mt-12 p-6 bg-gray-50 dark:bg-gray-900 rounded-2xl border border-gray-200 dark:border-gray-800">
           <p className="text-gray-600 dark:text-gray-400">
-            For any questions about these Terms of Service, please contact us at:{' '}
+            {t.terms.contactText}{' '}
             <a
               href={`mailto:${t.terms.contactEmail}`}
               className="text-brand-blue hover:underline"

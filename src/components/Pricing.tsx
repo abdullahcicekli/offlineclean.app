@@ -30,7 +30,7 @@ export default function Pricing() {
             </p>
 
             <div className="mb-6">
-              <span className="text-4xl font-bold text-gray-900 dark:text-white">$3.99</span>
+              <span className="text-4xl font-bold text-gray-900 dark:text-white">{t.pricing.plans.weekly.price}</span>
               <span className="text-gray-600 dark:text-gray-400">{t.pricing.plans.weekly.period}</span>
             </div>
 
@@ -70,9 +70,9 @@ export default function Pricing() {
             </p>
 
             <div className="mb-6">
-              <span className="text-4xl font-bold text-gray-900 dark:text-white">$39.99</span>
+              <span className="text-4xl font-bold text-gray-900 dark:text-white">{t.pricing.plans.yearly.price}</span>
               <span className="text-gray-600 dark:text-gray-400">{t.pricing.plans.yearly.period}</span>
-              <div className="text-sm text-brand-green mt-1">~ $0.77/week</div>
+              <div className="text-sm text-brand-green mt-1">{t.pricing.plans.yearly.perWeek}</div>
             </div>
 
             <ul className="space-y-3 mb-8">

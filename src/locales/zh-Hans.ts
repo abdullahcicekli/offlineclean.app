@@ -149,15 +149,18 @@ export const zhHans: Translation = {
     plans: {
       weekly: {
         name: '周付',
+        price: '$3.99',
         period: '/周',
         description: '适合偶尔清理',
         features: ['无限滑动', '包含所有功能', '随时取消'],
       },
       yearly: {
         name: '年付',
+        price: '$29.99',
         period: '/年',
         description: '常规用户的最佳选择',
         badge: '节省80%',
+        perWeek: '~ $0.58/周',
         features: [
           '无限滑动',
           '包含所有功能',
@@ -187,7 +190,7 @@ export const zhHans: Translation = {
     quickLinks: '快速链接',
     legal: '法律信息',
     followUs: '关注我们',
-    copyright: '2024 OfflineClean. 保留所有权利。',
+    copyright: '2025 OfflineClean. 保留所有权利。',
     productLinks: [{ name: '功能' }, { name: '工作原理' }, { name: '下载' }],
     legalLinks: [{ name: '隐私政策' }, { name: '服务条款' }, { name: '联系我们' }],
   },
@@ -275,6 +278,7 @@ export const zhHans: Translation = {
         content: '如果您对本隐私政策有任何问题，请联系我们。',
       },
     ],
+    contactText: '如果您对本隐私政策有任何疑问，请通过以下方式联系我们：',
     contactEmail: 'support@tinylapse.com',
   },
 
@@ -310,6 +314,7 @@ export const zhHans: Translation = {
           '我们可能不时更新这些服务条款。变更后继续使用应用即表示接受新条款。',
       },
     ],
+    contactText: '如果您对本服务条款有任何疑问，请通过以下方式联系我们：',
     contactEmail: 'support@tinylapse.com',
   },
 }
