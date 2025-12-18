@@ -149,15 +149,18 @@ export const arSA: Translation = {
     plans: {
       weekly: {
         name: 'أسبوعي',
+        price: 'د.إ 14.99',
         period: '/أسبوع',
         description: 'مثالي للتنظيف العرضي',
         features: ['تمريرات غير محدودة', 'جميع المميزات متضمنة', 'إلغاء في أي وقت'],
       },
       yearly: {
         name: 'سنوي',
+        price: 'د.إ 119.99',
         period: '/سنة',
         description: 'أفضل قيمة للمستخدمين المنتظمين',
         badge: 'وفر 80٪',
+        perWeek: '~ د.إ 2.31/أسبوع',
         features: [
           'تمريرات غير محدودة',
           'جميع المميزات متضمنة',
@@ -187,7 +190,7 @@ export const arSA: Translation = {
     quickLinks: 'روابط سريعة',
     legal: 'قانوني',
     followUs: 'تابعنا',
-    copyright: '2024 OfflineClean. جميع الحقوق محفوظة.',
+    copyright: '2025 OfflineClean. جميع الحقوق محفوظة.',
     productLinks: [{ name: 'المميزات' }, { name: 'كيف يعمل' }, { name: 'تحميل' }],
     legalLinks: [{ name: 'سياسة الخصوصية' }, { name: 'شروط الخدمة' }, { name: 'اتصل بنا' }],
   },
@@ -275,6 +278,7 @@ export const arSA: Translation = {
         content: 'إذا كان لديك أي أسئلة حول سياسة الخصوصية هذه، يرجى الاتصال بنا.',
       },
     ],
+    contactText: 'لأي استفسارات حول سياسة الخصوصية هذه، يرجى التواصل معنا على:',
     contactEmail: 'support@tinylapse.com',
   },
 
@@ -310,6 +314,7 @@ export const arSA: Translation = {
           'قد نحدّث شروط الخدمة هذه من وقت لآخر. الاستمرار في استخدام التطبيق بعد التغييرات يُعتبر قبولاً للشروط الجديدة.',
       },
     ],
+    contactText: 'لأي استفسارات حول شروط الخدمة هذه، يرجى التواصل معنا على:',
     contactEmail: 'support@tinylapse.com',
   },
 }

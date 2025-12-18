@@ -149,15 +149,18 @@ export const tr: Translation = {
     plans: {
       weekly: {
         name: 'Haftalık',
+        price: '₺199.99',
         period: '/hafta',
         description: 'Ara sıra temizlik için ideal',
         features: ['Sınırsız kaydırma', 'Tüm özellikler dahil', 'İstediğiniz zaman iptal'],
       },
       yearly: {
         name: 'Yıllık',
+        price: '₺1,499.99',
         period: '/yıl',
         description: 'Düzenli kullananlar için en iyi değer',
         badge: '%80 Tasarruf',
+        perWeek: '~ ₺28.85/hafta',
         features: [
           'Sınırsız kaydırma',
           'Tüm özellikler dahil',
@@ -187,7 +190,7 @@ export const tr: Translation = {
     quickLinks: 'Hızlı Bağlantılar',
     legal: 'Yasal',
     followUs: 'Bizi Takip Edin',
-    copyright: '2024 OfflineClean. Tüm hakları saklıdır.',
+    copyright: '2025 OfflineClean. Tüm hakları saklıdır.',
     productLinks: [{ name: 'Özellikler' }, { name: 'Nasıl Çalışır' }, { name: 'İndir' }],
     legalLinks: [{ name: 'Gizlilik Politikası' }, { name: 'Kullanım Şartları' }, { name: 'İletişim' }],
   },
@@ -275,6 +278,7 @@ export const tr: Translation = {
         content: 'Bu Gizlilik Politikası hakkında sorularınız varsa lütfen bizimle iletişime geçin.',
       },
     ],
+    contactText: 'Bu Gizlilik Politikası hakkında herhangi bir sorunuz için lütfen bizimle iletişime geçin:',
     contactEmail: 'support@tinylapse.com',
   },
 
@@ -310,6 +314,7 @@ export const tr: Translation = {
           'Bu Kullanım Şartlarını zaman zaman güncelleyebiliriz. Değişikliklerden sonra uygulamanın kullanılmaya devam edilmesi yeni şartların kabulü anlamına gelir.',
       },
     ],
+    contactText: 'Bu Kullanım Şartları hakkında herhangi bir sorunuz için lütfen bizimle iletişime geçin:',
     contactEmail: 'support@tinylapse.com',
   },
 }

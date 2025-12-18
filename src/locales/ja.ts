@@ -149,15 +149,18 @@ export const ja: Translation = {
     plans: {
       weekly: {
         name: '週間',
+        price: '$3.99',
         period: '/週',
         description: 'たまの整理に最適',
         features: ['無制限スワイプ', '全機能含む', 'いつでもキャンセル'],
       },
       yearly: {
         name: '年間',
+        price: '$29.99',
         period: '/年',
         description: '定期ユーザーに最適な価値',
         badge: '80%オフ',
+        perWeek: '~ $0.58/週',
         features: [
           '無制限スワイプ',
           '全機能含む',
@@ -187,7 +190,7 @@ export const ja: Translation = {
     quickLinks: 'クイックリンク',
     legal: '法的情報',
     followUs: 'フォロー',
-    copyright: '2024 OfflineClean. All rights reserved.',
+    copyright: '2025 OfflineClean. All rights reserved.',
     productLinks: [{ name: '機能' }, { name: '使い方' }, { name: 'ダウンロード' }],
     legalLinks: [{ name: 'プライバシーポリシー' }, { name: '利用規約' }, { name: 'お問い合わせ' }],
   },
@@ -275,6 +278,7 @@ export const ja: Translation = {
         content: 'このプライバシーポリシーについてご質問がある場合は、お問い合わせください。',
       },
     ],
+    contactText: 'このプライバシーポリシーに関するご質問は、こちらまでお問い合わせください：',
     contactEmail: 'support@tinylapse.com',
   },
 
@@ -310,6 +314,7 @@ export const ja: Translation = {
           'これらの利用規約は随時更新される場合があります。変更後もアプリを継続して使用することは、新しい規約への同意を意味します。',
       },
     ],
+    contactText: 'この利用規約に関するご質問は、こちらまでお問い合わせください：',
     contactEmail: 'support@tinylapse.com',
   },
 }

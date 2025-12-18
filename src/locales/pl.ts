@@ -149,15 +149,18 @@ export const pl: Translation = {
     plans: {
       weekly: {
         name: 'Tygodniowo',
+        price: '$3.99',
         period: '/tydzień',
         description: 'Idealne do okazjonalnego porządkowania',
         features: ['Nieograniczone przesunięcia', 'Wszystkie funkcje w cenie', 'Anuluj kiedy chcesz'],
       },
       yearly: {
         name: 'Rocznie',
+        price: '$29.99',
         period: '/rok',
         description: 'Najlepsza wartość dla regularnych użytkowników',
         badge: 'Oszczędź 80%',
+        perWeek: '~ $0.58/tydzień',
         features: [
           'Nieograniczone przesunięcia',
           'Wszystkie funkcje w cenie',
@@ -187,7 +190,7 @@ export const pl: Translation = {
     quickLinks: 'Szybkie linki',
     legal: 'Prawne',
     followUs: 'Obserwuj nas',
-    copyright: '2024 OfflineClean. Wszelkie prawa zastrzeżone.',
+    copyright: '2025 OfflineClean. Wszelkie prawa zastrzeżone.',
     productLinks: [{ name: 'Funkcje' }, { name: 'Jak to działa' }, { name: 'Pobierz' }],
     legalLinks: [{ name: 'Polityka prywatności' }, { name: 'Warunki usługi' }, { name: 'Kontakt' }],
   },
@@ -275,6 +278,7 @@ export const pl: Translation = {
         content: 'Jeśli masz pytania dotyczące tej Polityki prywatności, skontaktuj się z nami.',
       },
     ],
+    contactText: 'W przypadku pytań dotyczących tej Polityki prywatności prosimy o kontakt pod adresem:',
     contactEmail: 'support@tinylapse.com',
   },
 
@@ -310,6 +314,7 @@ export const pl: Translation = {
           'Możemy od czasu do czasu aktualizować niniejsze Warunki usługi. Dalsze korzystanie z aplikacji po zmianach oznacza akceptację nowych warunków.',
       },
     ],
+    contactText: 'W przypadku pytań dotyczących niniejszych Warunków usługi prosimy o kontakt pod adresem:',
     contactEmail: 'support@tinylapse.com',
   },
 }

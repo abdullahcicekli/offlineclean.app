@@ -149,15 +149,18 @@ export const enGB: Translation = {
     plans: {
       weekly: {
         name: 'Weekly',
+        price: '£3.99',
         period: '/week',
         description: 'Perfect for occasional cleanup',
         features: ['Unlimited swipes', 'All features included', 'Cancel anytime'],
       },
       yearly: {
         name: 'Yearly',
+        price: '£29.99',
         period: '/year',
         description: 'Best value for regular users',
         badge: 'Save 80%',
+        perWeek: '~ £0.58/week',
         features: [
           'Unlimited swipes',
           'All features included',
@@ -187,7 +190,7 @@ export const enGB: Translation = {
     quickLinks: 'Quick Links',
     legal: 'Legal',
     followUs: 'Follow Us',
-    copyright: '2024 OfflineClean. All rights reserved.',
+    copyright: '2025 OfflineClean. All rights reserved.',
     productLinks: [{ name: 'Features' }, { name: 'How It Works' }, { name: 'Download' }],
     legalLinks: [{ name: 'Privacy Policy' }, { name: 'Terms of Service' }, { name: 'Contact' }],
   },
@@ -275,6 +278,7 @@ export const enGB: Translation = {
         content: 'If you have any questions about this Privacy Policy, please contact us.',
       },
     ],
+    contactText: 'For any questions about this Privacy Policy, please contact us at:',
     contactEmail: 'support@tinylapse.com',
   },
 
@@ -310,6 +314,7 @@ export const enGB: Translation = {
           'We may update these Terms of Service from time to time. Continued use of the app after changes constitutes acceptance of the new terms.',
       },
     ],
+    contactText: 'For any questions about these Terms of Service, please contact us at:',
     contactEmail: 'support@tinylapse.com',
   },
 }

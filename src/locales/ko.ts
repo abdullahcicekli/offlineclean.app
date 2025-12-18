@@ -149,15 +149,18 @@ export const ko: Translation = {
     plans: {
       weekly: {
         name: '주간',
+        price: '$3.99',
         period: '/주',
         description: '가끔 정리에 완벽',
         features: ['무제한 스와이프', '모든 기능 포함', '언제든 취소'],
       },
       yearly: {
         name: '연간',
+        price: '$29.99',
         period: '/년',
         description: '정기 사용자에게 최고의 가치',
         badge: '80% 절약',
+        perWeek: '~ $0.58/주',
         features: [
           '무제한 스와이프',
           '모든 기능 포함',
@@ -187,7 +190,7 @@ export const ko: Translation = {
     quickLinks: '빠른 링크',
     legal: '법적 정보',
     followUs: '팔로우',
-    copyright: '2024 OfflineClean. All rights reserved.',
+    copyright: '2025 OfflineClean. All rights reserved.',
     productLinks: [{ name: '기능' }, { name: '사용 방법' }, { name: '다운로드' }],
     legalLinks: [{ name: '개인정보 보호정책' }, { name: '이용약관' }, { name: '문의하기' }],
   },
@@ -275,6 +278,7 @@ export const ko: Translation = {
         content: '이 개인정보 보호정책에 대해 질문이 있으시면 문의해 주세요.',
       },
     ],
+    contactText: '이 개인정보 보호정책에 관한 질문은 다음으로 문의해 주세요:',
     contactEmail: 'support@tinylapse.com',
   },
 
@@ -310,6 +314,7 @@ export const ko: Translation = {
           '이 이용약관은 수시로 업데이트될 수 있습니다. 변경 후 앱을 계속 사용하면 새 약관에 동의한 것으로 간주됩니다.',
       },
     ],
+    contactText: '이 이용약관에 관한 질문은 다음으로 문의해 주세요:',
     contactEmail: 'support@tinylapse.com',
   },
 }

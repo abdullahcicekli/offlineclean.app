@@ -91,15 +91,18 @@ export interface Translation {
     plans: {
       weekly: {
         name: string
+        price: string
         period: string
         description: string
         features: string[]
       }
       yearly: {
         name: string
+        price: string
         period: string
         description: string
         badge: string
+        perWeek: string
         features: string[]
       }
     }
@@ -161,6 +164,7 @@ export interface Translation {
         text: string
       }>
     }>
+    contactText: string
     contactEmail: string
   }
 
@@ -174,6 +178,7 @@ export interface Translation {
       content: string
       items?: string[]
     }>
+    contactText: string
     contactEmail: string
   }
 }
