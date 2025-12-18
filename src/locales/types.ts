@@ -1,4 +1,23 @@
-export type Language = 'tr' | 'en'
+export type Language =
+  | 'en'
+  | 'tr'
+  | 'ar-SA'
+  | 'de-DE'
+  | 'en-GB'
+  | 'en-US'
+  | 'es-ES'
+  | 'es-MX'
+  | 'fr-FR'
+  | 'hi'
+  | 'it'
+  | 'ja'
+  | 'ko'
+  | 'nl-NL'
+  | 'pl'
+  | 'pt-BR'
+  | 'ru'
+  | 'vi'
+  | 'zh-Hans'
 
 export interface Translation {
   // Navigation
