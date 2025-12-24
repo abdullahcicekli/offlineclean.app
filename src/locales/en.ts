@@ -264,9 +264,20 @@ export const en: Translation = {
           'OfflineClean requires access to your photo library to function. This access is used solely to display your photos within the app and to delete photos you choose to remove. Your photos never leave your device.',
       },
       {
-        title: 'Analytics',
+        title: 'Analytics and Measurement',
         content:
-          'We may collect anonymous usage analytics to improve the app experience. This data does not include any personal information or access to your photos.',
+          'We use Meta SDK to collect anonymous usage analytics to improve the app experience and scale our services. This data does not include your personal information or photos. We only record app usage events.',
+        items: [
+          { label: 'Registration Complete', text: 'When onboarding process is completed' },
+          { label: 'Trial Start', text: 'When free trial period begins' },
+          { label: 'Purchase', text: 'Subscription purchase events' },
+          { label: 'Content View', text: 'When paywall screen is displayed' },
+          { label: 'Checkout Initiation', text: 'When purchase button is tapped' },
+          { label: 'Photo Deletion', text: 'Number of photos deleted (not content)' },
+          { label: 'Cleanup Complete', text: 'When cleanup session is finished' },
+          { label: 'Arena Complete', text: 'When arena challenge is completed' },
+          { label: 'Analysis Complete', text: 'Similar, blurry, or screenshot analysis' },
+        ],
       },
       {
         title: 'Third-Party Services',

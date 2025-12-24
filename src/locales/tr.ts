@@ -264,9 +264,20 @@ export const tr: Translation = {
           "OfflineClean'in çalışması için fotoğraf kütüphanenize erişmesi gerekir. Bu erişim yalnızca fotoğraflarınızı uygulama içinde görüntülemek ve kaldırmayı seçtiğiniz fotoğrafları silmek için kullanılır. Fotoğraflarınız asla cihazınızdan çıkmaz.",
       },
       {
-        title: 'Analitik',
+        title: 'Analitik ve Ölçümleme',
         content:
-          'Uygulama deneyimini iyileştirmek için anonim kullanım analitiği toplayabiliriz. Bu veriler herhangi bir kişisel bilgi veya fotoğraflarınıza erişim içermez.',
+          'Uygulama deneyimini iyileştirmek ve hizmetlerimizi ölçeklendirmek için Meta SDK kullanarak anonim kullanım analitiği topluyoruz. Bu veriler kişisel bilgilerinizi veya fotoğraflarınızı içermez. Sadece uygulama kullanım olaylarını kaydediyoruz.',
+        items: [
+          { label: 'Kayıt Tamamlama', text: 'Onboarding sürecinin tamamlanması' },
+          { label: 'Deneme Başlangıcı', text: 'Ücretsiz deneme süresinin başlaması' },
+          { label: 'Satın Alma', text: 'Abonelik satın alma işlemi' },
+          { label: 'İçerik Görüntüleme', text: 'Paywall ekranının görüntülenmesi' },
+          { label: 'Ödeme Başlatma', text: 'Satın al butonuna tıklama' },
+          { label: 'Fotoğraf Silme', text: 'Silinen fotoğraf sayısı (içerik değil)' },
+          { label: 'Temizlik Tamamlama', text: 'Temizlik oturumunun bitirilmesi' },
+          { label: 'Arena Tamamlama', text: 'Arena challenge tamamlanması' },
+          { label: 'Analiz Tamamlama', text: 'Benzer, bulanık veya ekran görüntüsü analizi' },
+        ],
       },
       {
         title: 'Üçüncü Taraf Hizmetleri',

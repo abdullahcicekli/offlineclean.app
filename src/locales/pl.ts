@@ -264,9 +264,20 @@ export const pl: Translation = {
           'OfflineClean wymaga dostępu do biblioteki zdjęć, aby działać. Ten dostęp jest używany wyłącznie do wyświetlania zdjęć w aplikacji i usuwania zdjęć, które zdecydujesz się usunąć. Twoje zdjęcia nigdy nie opuszczają urządzenia.',
       },
       {
-        title: 'Analityka',
+        title: 'Analityka i pomiary',
         content:
-          'Możemy zbierać anonimowe statystyki użytkowania, aby poprawić doświadczenie z aplikacją. Te dane nie zawierają żadnych informacji osobowych ani dostępu do Twoich zdjęć.',
+          'Używamy Meta SDK do zbierania anonimowych statystyk użytkowania w celu poprawy doświadczenia z aplikacją i skalowania naszych usług. Te dane nie zawierają Twoich informacji osobowych ani zdjęć. Rejestrujemy tylko zdarzenia użytkowania aplikacji.',
+        items: [
+          { label: 'Rejestracja zakończona', text: 'Po zakończeniu procesu wdrożenia' },
+          { label: 'Start próby', text: 'Gdy rozpoczyna się bezpłatny okres próbny' },
+          { label: 'Zakup', text: 'Zdarzenia zakupu subskrypcji' },
+          { label: 'Wyświetlenie treści', text: 'Gdy wyświetlany jest ekran paywall' },
+          { label: 'Rozpoczęcie płatności', text: 'Po naciśnięciu przycisku zakupu' },
+          { label: 'Usunięcie zdjęć', text: 'Liczba usuniętych zdjęć (nie zawartość)' },
+          { label: 'Sprzątanie zakończone', text: 'Po zakończeniu sesji sprzątania' },
+          { label: 'Arena zakończona', text: 'Po ukończeniu wyzwania arena' },
+          { label: 'Analiza zakończona', text: 'Analiza podobnych, rozmazanych zdjęć lub zrzutów ekranu' },
+        ],
       },
       {
         title: 'Usługi zewnętrzne',
