@@ -264,9 +264,20 @@ export const vi: Translation = {
           'OfflineClean yêu cầu quyền truy cập vào thư viện ảnh của bạn để hoạt động. Quyền truy cập này chỉ được sử dụng để hiển thị ảnh trong ứng dụng và xóa ảnh bạn chọn xóa. Ảnh của bạn không bao giờ rời khỏi thiết bị.',
       },
       {
-        title: 'Phân tích',
+        title: 'Phân tích và Đo lường',
         content:
-          'Chúng tôi có thể thu thập phân tích sử dụng ẩn danh để cải thiện trải nghiệm ứng dụng. Dữ liệu này không bao gồm bất kỳ thông tin cá nhân hoặc quyền truy cập vào ảnh của bạn.',
+          'Chúng tôi sử dụng Meta SDK để thu thập phân tích sử dụng ẩn danh nhằm cải thiện trải nghiệm ứng dụng và mở rộng dịch vụ. Dữ liệu này không bao gồm thông tin cá nhân hoặc ảnh của bạn. Chúng tôi chỉ ghi lại các sự kiện sử dụng ứng dụng.',
+        items: [
+          { label: 'Hoàn tất đăng ký', text: 'Khi quy trình giới thiệu hoàn tất' },
+          { label: 'Bắt đầu dùng thử', text: 'Khi thời gian dùng thử miễn phí bắt đầu' },
+          { label: 'Mua hàng', text: 'Sự kiện mua đăng ký' },
+          { label: 'Xem nội dung', text: 'Khi màn hình paywall được hiển thị' },
+          { label: 'Bắt đầu thanh toán', text: 'Khi nhấn nút mua' },
+          { label: 'Xóa ảnh', text: 'Số lượng ảnh đã xóa (không phải nội dung)' },
+          { label: 'Dọn dẹp hoàn tất', text: 'Khi phiên dọn dẹp kết thúc' },
+          { label: 'Arena hoàn tất', text: 'Khi thử thách arena hoàn thành' },
+          { label: 'Phân tích hoàn tất', text: 'Phân tích ảnh tương tự, mờ hoặc ảnh chụp màn hình' },
+        ],
       },
       {
         title: 'Dịch vụ bên thứ ba',

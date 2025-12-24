@@ -264,9 +264,20 @@ export const nlNL: Translation = {
           'OfflineClean heeft toegang tot je fotobibliotheek nodig om te functioneren. Deze toegang wordt uitsluitend gebruikt om je foto\'s in de app weer te geven en om foto\'s te verwijderen die je kiest om te verwijderen. Je foto\'s verlaten nooit je apparaat.',
       },
       {
-        title: 'Analytics',
+        title: 'Analytics en Meting',
         content:
-          'We kunnen anonieme gebruiksanalyses verzamelen om de app-ervaring te verbeteren. Deze gegevens bevatten geen persoonlijke informatie of toegang tot je foto\'s.',
+          'We gebruiken Meta SDK om anonieme gebruiksanalyses te verzamelen om de app-ervaring te verbeteren en onze diensten te schalen. Deze gegevens bevatten geen persoonlijke informatie of foto\'s. We registreren alleen app-gebruiksgebeurtenissen.',
+        items: [
+          { label: 'Registratie voltooid', text: 'Wanneer het onboardingproces is voltooid' },
+          { label: 'Proefperiode gestart', text: 'Wanneer de gratis proefperiode begint' },
+          { label: 'Aankoop', text: 'Abonnementsaankopen' },
+          { label: 'Content bekeken', text: 'Wanneer het paywall-scherm wordt weergegeven' },
+          { label: 'Checkout gestart', text: 'Wanneer op de koopknop wordt gedrukt' },
+          { label: 'Foto\'s verwijderd', text: 'Aantal verwijderde foto\'s (niet de inhoud)' },
+          { label: 'Opruiming voltooid', text: 'Wanneer de opruimsessie is voltooid' },
+          { label: 'Arena voltooid', text: 'Wanneer de arena-uitdaging is voltooid' },
+          { label: 'Analyse voltooid', text: 'Vergelijkbare, wazige of screenshot-analyse' },
+        ],
       },
       {
         title: 'Diensten van Derden',

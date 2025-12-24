@@ -264,9 +264,20 @@ export const esES: Translation = {
           'OfflineClean requiere acceso a tu biblioteca de fotos para funcionar. Este acceso se usa únicamente para mostrar tus fotos dentro de la app y para eliminar las fotos que elijas quitar. Tus fotos nunca salen de tu dispositivo.',
       },
       {
-        title: 'Analíticas',
+        title: 'Analíticas y Medición',
         content:
-          'Podemos recopilar analíticas de uso anónimas para mejorar la experiencia de la app. Estos datos no incluyen ninguna información personal ni acceso a tus fotos.',
+          'Utilizamos Meta SDK para recopilar analíticas de uso anónimas para mejorar la experiencia de la app y escalar nuestros servicios. Estos datos no incluyen tu información personal ni tus fotos. Solo registramos eventos de uso de la app.',
+        items: [
+          { label: 'Registro completado', text: 'Cuando se completa el proceso de incorporación' },
+          { label: 'Inicio de prueba', text: 'Cuando comienza el período de prueba gratuito' },
+          { label: 'Compra', text: 'Eventos de compra de suscripción' },
+          { label: 'Vista de contenido', text: 'Cuando se muestra la pantalla de pago' },
+          { label: 'Inicio de pago', text: 'Cuando se pulsa el botón de compra' },
+          { label: 'Eliminación de fotos', text: 'Número de fotos eliminadas (no el contenido)' },
+          { label: 'Limpieza completada', text: 'Cuando finaliza la sesión de limpieza' },
+          { label: 'Arena completada', text: 'Cuando se completa el desafío de arena' },
+          { label: 'Análisis completado', text: 'Análisis de fotos similares, borrosas o capturas de pantalla' },
+        ],
       },
       {
         title: 'Servicios de Terceros',
