@@ -249,7 +249,7 @@ export const hi: Translation = {
 
   privacy: {
     title: 'गोपनीयता नीति',
-    lastUpdated: 'अंतिम अपडेट: दिसंबर 2024',
+    lastUpdated: 'अंतिम अपडेट: दिसंबर 2025',
     intro:
       'OfflineClean आपकी गोपनीयता की रक्षा के लिए प्रतिबद्ध है। यह गोपनीयता नीति बताती है कि हम आपकी जानकारी को कैसे संभालते हैं।',
     sections: [
@@ -295,7 +295,7 @@ export const hi: Translation = {
 
   terms: {
     title: 'सेवा की शर्तें',
-    lastUpdated: 'अंतिम अपडेट: दिसंबर 2024',
+    lastUpdated: 'अंतिम अपडेट: दिसंबर 2025',
     intro:
       'OfflineClean का उपयोग करके, आप इन सेवा की शर्तों से सहमत होते हैं। कृपया इन्हें ध्यान से पढ़ें।',
     sections: [

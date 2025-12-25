@@ -249,7 +249,7 @@ export const arSA: Translation = {
 
   privacy: {
     title: 'سياسة الخصوصية',
-    lastUpdated: 'آخر تحديث: ديسمبر 2024',
+    lastUpdated: 'آخر تحديث: ديسمبر 2025',
     intro:
       'OfflineClean ملتزم بحماية خصوصيتك. توضح سياسة الخصوصية هذه كيف نتعامل مع معلوماتك.',
     sections: [
@@ -295,7 +295,7 @@ export const arSA: Translation = {
 
   terms: {
     title: 'شروط الخدمة',
-    lastUpdated: 'آخر تحديث: ديسمبر 2024',
+    lastUpdated: 'آخر تحديث: ديسمبر 2025',
     intro:
       'باستخدام OfflineClean، فإنك توافق على شروط الخدمة هذه. يرجى قراءتها بعناية.',
     sections: [

@@ -249,7 +249,7 @@ export const esMX: Translation = {
 
   privacy: {
     title: 'Política de Privacidad',
-    lastUpdated: 'Última actualización: Diciembre 2024',
+    lastUpdated: 'Última actualización: Diciembre 2025',
     intro:
       'OfflineClean está comprometido a proteger tu privacidad. Esta Política de Privacidad explica cómo manejamos tu información.',
     sections: [
@@ -295,7 +295,7 @@ export const esMX: Translation = {
 
   terms: {
     title: 'Términos de Servicio',
-    lastUpdated: 'Última actualización: Diciembre 2024',
+    lastUpdated: 'Última actualización: Diciembre 2025',
     intro:
       'Al usar OfflineClean, aceptas estos Términos de Servicio. Por favor léelos cuidadosamente.',
     sections: [

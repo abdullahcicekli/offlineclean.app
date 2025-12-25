@@ -249,7 +249,7 @@ export const tr: Translation = {
 
   privacy: {
     title: 'Gizlilik Politikası',
-    lastUpdated: 'Son güncelleme: Aralık 2024',
+    lastUpdated: 'Son güncelleme: Aralık 2025',
     intro:
       'OfflineClean gizliliğinizi korumaya kararlıdır. Bu Gizlilik Politikası bilgilerinizi nasıl işlediğimizi açıklar.',
     sections: [
@@ -295,7 +295,7 @@ export const tr: Translation = {
 
   terms: {
     title: 'Kullanım Şartları',
-    lastUpdated: 'Son güncelleme: Aralık 2024',
+    lastUpdated: 'Son güncelleme: Aralık 2025',
     intro:
       "OfflineClean'i kullanarak bu Kullanım Şartlarını kabul etmiş olursunuz. Lütfen bunları dikkatlice okuyun.",
     sections: [

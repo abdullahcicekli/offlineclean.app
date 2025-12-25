@@ -249,7 +249,7 @@ export const zhHans: Translation = {
 
   privacy: {
     title: '隐私政策',
-    lastUpdated: '最后更新：2024年12月',
+    lastUpdated: '最后更新：2025年12月',
     intro:
       'OfflineClean 致力于保护您的隐私。本隐私政策说明我们如何处理您的信息。',
     sections: [
@@ -295,7 +295,7 @@ export const zhHans: Translation = {
 
   terms: {
     title: '服务条款',
-    lastUpdated: '最后更新：2024年12月',
+    lastUpdated: '最后更新：2025年12月',
     intro:
       '使用 OfflineClean 即表示您同意这些服务条款。请仔细阅读。',
     sections: [
