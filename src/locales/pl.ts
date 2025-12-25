@@ -249,7 +249,7 @@ export const pl: Translation = {
 
   privacy: {
     title: 'Polityka prywatności',
-    lastUpdated: 'Ostatnia aktualizacja: Grudzień 2024',
+    lastUpdated: 'Ostatnia aktualizacja: Grudzień 2025',
     intro:
       'OfflineClean zobowiązuje się do ochrony Twojej prywatności. Ta Polityka prywatności wyjaśnia, jak postępujemy z Twoimi informacjami.',
     sections: [
@@ -295,7 +295,7 @@ export const pl: Translation = {
 
   terms: {
     title: 'Warunki usługi',
-    lastUpdated: 'Ostatnia aktualizacja: Grudzień 2024',
+    lastUpdated: 'Ostatnia aktualizacja: Grudzień 2025',
     intro:
       'Korzystając z OfflineClean, zgadzasz się na niniejsze Warunki usługi. Przeczytaj je uważnie.',
     sections: [

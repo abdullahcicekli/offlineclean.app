@@ -249,7 +249,7 @@ export const ko: Translation = {
 
   privacy: {
     title: '개인정보 보호정책',
-    lastUpdated: '마지막 업데이트: 2024년 12월',
+    lastUpdated: '마지막 업데이트: 2025년 12월',
     intro:
       'OfflineClean은 귀하의 개인정보를 보호하기 위해 최선을 다하고 있습니다. 이 개인정보 보호정책은 귀하의 정보를 어떻게 처리하는지 설명합니다.',
     sections: [
@@ -295,7 +295,7 @@ export const ko: Translation = {
 
   terms: {
     title: '이용약관',
-    lastUpdated: '마지막 업데이트: 2024년 12월',
+    lastUpdated: '마지막 업데이트: 2025년 12월',
     intro:
       'OfflineClean을 사용함으로써 이 이용약관에 동의하는 것입니다. 주의 깊게 읽어주세요.',
     sections: [

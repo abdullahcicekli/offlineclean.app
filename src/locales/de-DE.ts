@@ -249,7 +249,7 @@ export const deDE: Translation = {
 
   privacy: {
     title: 'Datenschutzrichtlinie',
-    lastUpdated: 'Zuletzt aktualisiert: Dezember 2024',
+    lastUpdated: 'Zuletzt aktualisiert: Dezember 2025',
     intro:
       'OfflineClean verpflichtet sich zum Schutz deiner Privatsphäre. Diese Datenschutzrichtlinie erklärt, wie wir mit deinen Informationen umgehen.',
     sections: [
@@ -295,7 +295,7 @@ export const deDE: Translation = {
 
   terms: {
     title: 'Nutzungsbedingungen',
-    lastUpdated: 'Zuletzt aktualisiert: Dezember 2024',
+    lastUpdated: 'Zuletzt aktualisiert: Dezember 2025',
     intro:
       'Durch die Nutzung von OfflineClean stimmst du diesen Nutzungsbedingungen zu. Bitte lies sie sorgfältig durch.',
     sections: [

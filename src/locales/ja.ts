@@ -249,7 +249,7 @@ export const ja: Translation = {
 
   privacy: {
     title: 'プライバシーポリシー',
-    lastUpdated: '最終更新：2024年12月',
+    lastUpdated: '最終更新：2025年12月',
     intro:
       'OfflineCleanは、あなたのプライバシーを保護することに取り組んでいます。このプライバシーポリシーでは、あなたの情報をどのように扱うかを説明します。',
     sections: [
@@ -295,7 +295,7 @@ export const ja: Translation = {
 
   terms: {
     title: '利用規約',
-    lastUpdated: '最終更新：2024年12月',
+    lastUpdated: '最終更新：2025年12月',
     intro:
       'OfflineCleanを使用することで、これらの利用規約に同意したことになります。よくお読みください。',
     sections: [

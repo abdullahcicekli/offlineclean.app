@@ -249,7 +249,7 @@ export const nlNL: Translation = {
 
   privacy: {
     title: 'Privacybeleid',
-    lastUpdated: 'Laatst bijgewerkt: December 2024',
+    lastUpdated: 'Laatst bijgewerkt: December 2025',
     intro:
       'OfflineClean zet zich in voor de bescherming van je privacy. Dit Privacybeleid legt uit hoe we omgaan met je informatie.',
     sections: [
@@ -295,7 +295,7 @@ export const nlNL: Translation = {
 
   terms: {
     title: 'Servicevoorwaarden',
-    lastUpdated: 'Laatst bijgewerkt: December 2024',
+    lastUpdated: 'Laatst bijgewerkt: December 2025',
     intro:
       'Door OfflineClean te gebruiken, ga je akkoord met deze Servicevoorwaarden. Lees ze zorgvuldig door.',
     sections: [

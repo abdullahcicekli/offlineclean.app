@@ -249,7 +249,7 @@ export const vi: Translation = {
 
   privacy: {
     title: 'Chính sách bảo mật',
-    lastUpdated: 'Cập nhật lần cuối: Tháng 12 năm 2024',
+    lastUpdated: 'Cập nhật lần cuối: Tháng 12 năm 2025',
     intro:
       'OfflineClean cam kết bảo vệ quyền riêng tư của bạn. Chính sách bảo mật này giải thích cách chúng tôi xử lý thông tin của bạn.',
     sections: [
@@ -295,7 +295,7 @@ export const vi: Translation = {
 
   terms: {
     title: 'Điều khoản dịch vụ',
-    lastUpdated: 'Cập nhật lần cuối: Tháng 12 năm 2024',
+    lastUpdated: 'Cập nhật lần cuối: Tháng 12 năm 2025',
     intro:
       'Bằng cách sử dụng OfflineClean, bạn đồng ý với các Điều khoản dịch vụ này. Vui lòng đọc kỹ.',
     sections: [
